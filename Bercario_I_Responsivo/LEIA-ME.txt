@@ -1,0 +1,63 @@
+ENTRE PASSOS & DESCOBERTAS — BERÇÁRIO I
+=======================================
+
+VERSÃO ATUALIZADA
+- Esta versão foi reorganizada para focar APENAS no Berçário I.
+- Os materiais de turmas maiores foram removidos da navegação principal.
+- Foram adicionados novos murais e cartazes da turma.
+- Foi criada uma seção específica para atividades com QR Code.
+- Foi incluída uma apresentação da professora Alexandra Maria de Sousa.
+
+COMO ABRIR
+1. Extraia TODO o conteúdo do ZIP para uma pasta.
+2. Dê dois cliques no arquivo index.html.
+3. Também é possível publicar a pasta em uma hospedagem de site estático,
+   respeitando antes as autorizações de uso das imagens e dos QR Codes.
+
+O QUE FOI FEITO
+- Layout responsivo para computador e celular.
+- Menu com seções: projeto, professora, rotina, vivências, QR Codes e famílias.
+- Linha de rotina com 8 momentos interativos.
+- Seção “Vivências e murais do Berçário I” com filtros e cards interativos.
+- Seção exclusiva “Atividades com QR Code”, separando os cartazes escaneáveis.
+- Modal para ampliar os registros e navegar entre eles.
+- Inclusão da foto e de um resumo profissional da professora.
+- FAQ para as famílias.
+
+PASTAS IMPORTANTES
+- assets/fotos ............ fotos principais da turma
+- assets/murais ........... murais e cartazes sem QR Code
+- assets/qr ............... cartazes com QR Code
+- assets/professora ....... foto da professora
+- assets/ilustracoes ...... ilustrações da rotina
+
+COMO PERSONALIZAR
+- Textos da rotina: edite a lista "rotinas" no arquivo script.js.
+- Cards da seção vivências: edite a lista "vivencias" no script.js.
+- Cartazes com QR Code: edite a lista "qrRegistros" no script.js.
+- Estrutura das seções: edite o index.html.
+- Cores e layout: edite o style.css.
+
+OBSERVAÇÕES IMPORTANTES
+- Os QR Codes foram mantidos conforme as imagens fornecidas.
+- Os links dos QR Codes não foram validados nesta etapa.
+- Antes de publicar o site publicamente, confirme as autorizações de uso
+  de imagem das crianças e a política da escola.
+- Evite acrescentar nomes completos, dados sensíveis ou informações que
+  identifiquem individualmente as crianças.
+- O site é estático: não tem login, banco de dados nem envio automático
+  de arquivos para servidor.
+
+VERSÃO MOBILE (ATUALIZAÇÃO)
+- Navegação por menu em telas menores, botões de toque maiores e foco acessível.
+- Capa, dados da professora, murais, rotina e cartões dos QR Codes reorganizados
+  para celulares e tablets, sem rolagem horizontal.
+- Miniaturas em WebP carregadas sob demanda para reduzir o uso de dados móveis;
+  os cartazes originais permanecem em PNG no ZIP e são abertos por demanda.
+- Botão “Abrir link do QR” nos cartões e na janela ampliada, importante porque
+  o celular não consegue escanear facilmente um QR Code na própria tela.
+- Os destinos dos QR Codes foram extraídos dos cartazes, mas não foram testados
+  quanto à disponibilidade e aos direitos de acesso. Alguns podem exigir login.
+- NÃO existe login nem proteção no código atual. Se o site for publicado na
+  internet, configure autenticação no servidor E controle a permissão de acesso
+  aos arquivos de mídia e aos links de vídeos. Não basta proteger só a página.
